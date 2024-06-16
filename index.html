@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cap-Survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h3>CapacityBay Survey Form</h3>
+    <p><i> Thank you for taking the time to help us improve the platform</i></p>
+    <div class="survey">
+        <form action="mailto:enahmurphy2001@gmail.com" method="post" enctype="text/plain">
+        <label for="name" >Name</label>
+        <br>
+        <input type="text" id="name" name="name" class="okay" placeholder="Enter your name">
+        <br>
+        <label for="email" >Email</label>
+        <br>
+        <input type="text" id="email" name="email" class="okay" placeholder="Enter your email">
+        <br>
+        <label for="name" >Age (optional)</label>
+        <br>
+        <input type="text" id="name" name="name" class="okay" placeholder="Age">
+        <br>
+
+        <p>Which option best describes your current role?</p>
+        <select id="option" class="okay">
+            <option value="Student" id="option" disabled>Select current role</option >
+            <option value="Student" id="option">Student</option>
+            <option value="Full time job" id="option">Full time job</option>
+            <option value="Full time learner" id="option">Full time learner</option>
+            <option value="prefer not say" id="option">Prefer not say</option>
+            <option value="others" id="option">Others</option>
+        </select>
+        <br>
+        <label  for="radio">Would you recommend CapacityBay to a freinds?</label>
+        <br>
+        <input type="radio" id="radio"> Definitely 
+        <br>
+        <input type="radio" id="radio"> Maybe 
+        <br>
+        <input type="radio" id="radio"> Not sure
+        <br>
+        <br>
+        <p for=" second-opt">What is your Favourite feature of CapaityBay</p>
+       <select name="second-opt" id="" class="okay">
+        <option value="second-opt" disabled>select  an option</option>
+        <option value="second-opt">Challenges</option>
+        <option value="second-opt">Projects</option>
+        <option value="second-opt">Community</option>
+        <option value="second-opt">Open source</option>
+        <option value="second-opt"></option>
+       </select>
+       <br>
+       <br>
+
+       <p for="like">What do you like to see improved? (<span> Check all that apply</span>)</p>
+       <input type="checkbox" name="like" id=""> Front-end project
+       <br>
+       <input type="checkbox" name="like" id="">Back-end project
+       <br>
+       <input type="checkbox" name="like" id="">Data visualization
+       <br>
+       <input type="checkbox" name="like" id="">Open sevice community
+       <br>
+       <input type="checkbox" name="like" id="">Challenges
+       <br>
+       <input type="checkbox" name="like" id="">Open source community 
+       <br>
+       <input type="checkbox" name="like" id="">Gilter home rooms
+       <br>
+       <input type="checkbox" name="like" id="">Video
+       <br>
+       <input type="checkbox" name="like" id="">City meetup's 
+       <br>
+       <input type="checkbox" name="like" id="">Wild
+       <br>
+       <input type="checkbox" name="like" id="">Forum
+       <br>
+       <input type="checkbox" name="like" id="">Addiional Courses
+       <br>
+       <br>
+       <label for="text-a">Any comments or suggestions</label>
+       <br>
+       
+       <textarea name="text-a" id="text-a" placeholder="Enter your comments here"></textarea>
+       <br>
+       <br>
+
+       <input type="submit" value="Submit" class="last">
+
+    </form>
+    </div>
+</body>
+</html>

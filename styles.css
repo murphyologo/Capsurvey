@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("images/survey-one.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(69, 69, 231);
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 20px;
+    align-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure;
+}
+.last{
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: rgb(32, 88, 21);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+body span{
+    font-size: 12px;
+}
+
+#text-a{
+    position: relative;
+    width: 100%;
+    height: 30vh;
+}
+.survey{
+    background-color: rgb(11, 11, 56);
+    height: 150vh;
+    width: 45%;
+    display: inline-block;
+    margin-top: 20px; 
+    text-align: justify;
+    padding: 10px 15px 10px 15px;
+    color: azure;
+}
+.survey .okay{
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
